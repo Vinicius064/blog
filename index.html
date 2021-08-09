@@ -13,6 +13,12 @@
     		padding: 0;
     		box-sizing: border-box;    		
     	}
+    	.avatar{
+    		height: 50px;
+    		width: 50px;
+    		background: #C0C0C0;
+    		border-radius: ;
+    	}
     	main{
     		font-size: 16px;
     	}
@@ -74,7 +80,7 @@
 		<section>
 			
 			<article class="my-4 bg-white mx-auto">
-				<a href="#" class="post text-dark">
+				<a href="post.html" class="post text-dark">
 					<div class="p-4">
 						<header>
 							<h2>Título da postagem</h2>
@@ -83,7 +89,6 @@
 						</header>
 						<div>
 							<div class="image-cap" style="background: url('https://st.depositphotos.com/1912933/1814/i/600/depositphotos_18140761-stock-photo-old-woman.jpg') no-repeat center center; height: 30vh; width: 100%;">
-								
 							</div>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -91,15 +96,17 @@
 							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 							cillum dolore eu fugiat nulla pariatur.</p>
 						</div>
-						<footer class="font-italic">
-							Por Rogerin
+						<footer class="clearfix d-flex align-items-center">
+							<span class="avatar d-inline-block rounded-circle mr-1"></span>
+							<span class="float-left font-italic">Por Rogerin</span>
+							<span class="ml-auto">2 minutos atrás</span>
 						</footer>
 					</div>
 				</a>
 			</article>
 
 			<article class="my-4 bg-white mx-auto">
-				<a href="#" class="post text-dark">
+				<a href="post.html" class="post text-dark">
 					<div class="p-4">
 						<header>
 							<h2>Título da postagem</h2>
@@ -116,14 +123,14 @@
 							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 							cillum dolore eu fugiat nulla pariatur.</p>
 						</div>
-						<footer class="font-italic">
-							Por Rogerin
+						<footer class="clearfix">
+							<span class="float-left font-italic">Por Rogerin</span><span class="float-right">2 minutos atrás</span>
 						</footer>
 					</div>
 				</a>
 			</article>
 			<article class="my-4 bg-white mx-auto">
-				<a href="#" class="post text-dark">
+				<a href="post.html" class="post text-dark">
 					<div class="p-4">
 						<header>
 							<h2>Título da postagem</h2>
@@ -137,18 +144,18 @@
 							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 							cillum dolore eu fugiat nulla pariatur.</p>
 						</div>
-						<footer class="font-italic">
-							Por Rogerin
+						<footer class="clearfix">
+							<span class="float-left font-italic">Por Rogerin</span><span class="float-right">2 minutos atrás</span>
 						</footer>
 					</div>
 				</a>
 			</article>
-					
+
 		</section>
 
 	</main> <!-- Fim main -->
-	<footer> <!-- Início footer -->
-			
+	<footer class="text-center mt-5 p-4" style="background: #D3D3D3;"> <!-- Início footer -->
+		&copy; Todos os direitos reservados
 	</footer> <!-- fim footer -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
