@@ -13,28 +13,30 @@
     		padding: 0;
     		box-sizing: border-box;    		
     	}
-    	body{
+    	main{
     		font-size: 16px;
     	}
     	article{
-    		width: 60%;
-    		margin: 0 auto;
+    		width: 55%;
+    	}
+    	article:hover{
+    		box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.4);
     	}
     	article header h2{
     		font-weight: bold;
     	}
     	article img{
     		width: 100%
+    	}    	
+    	a.post:hover{
+    		text-decoration: none;
     	}
-    	@media (max-width: 575.98px) {
-    		body{
-    			font-size: 10px;
-    		}
+    	@media (max-width: 768px) {
     		article{
     			width: 85%;
     		}
     		article header h2{
-    			font-size: 18px;
+    			font-size: 23px;
     		}
     	}
     </style>
@@ -64,60 +66,75 @@
 	</header> <!-- Fim header -->
 	<main> <!-- Início main -->
 		<section>
-			<article class="p-3 mt-4 bg-white">
-				<header>
-					<h2>Título da postagem</h2>
-					<span>postado em 9 de março de 2021</span>
-					<hr>
-				</header>
-				<div>
-					<img src="https://st.depositphotos.com/1912933/1814/i/600/depositphotos_18140761-stock-photo-old-woman.jpg">
-					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur.</p>
-				</div>
-				<footer>
-					
-				</footer>
+			
+			<article class="my-4 bg-white mx-auto">
+				<a href="#" class="post text-dark">
+					<div class="p-4">
+						<header>
+							<h2>Título da postagem</h2>
+							<span>postado em 9 de março de 2021</span>
+							<hr>
+						</header>
+						<div>
+							<img src="https://st.depositphotos.com/1912933/1814/i/600/depositphotos_18140761-stock-photo-old-woman.jpg">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur.</p>
+						</div>
+						<footer class="font-italic">
+							Por Rogerin
+						</footer>
+					</div>
+				</a>
 			</article>
-			<article class="p-3 mt-4 bg-white">
-				<header>
-					<h2>Título da postagem</h2>
-					<span>postado em 9 de março de 2021</span>
-					<hr>
-				</header>
-				<div>
-					<img src="https://pbs.twimg.com/profile_images/1142308816211460097/okxhBc4w_400x400.jpg">
-					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur.</p>
-				</div>
-				<footer>
-					
-				</footer>
+
+			<article class="my-4 bg-white mx-auto">
+				<a href="#" class="post text-dark">
+					<div class="p-4">
+						<header>
+							<h2>Título da postagem</h2>
+							<span>postado em 9 de março de 2021</span>
+							<hr>
+						</header>
+						<div>
+							<img src="https://previews.123rf.com/images/oksanaok/oksanaok1701/oksanaok170100030/70423416-paisagem-horizontal-sem-emenda-da-floresta-do-natal-do-inverno-com-silhuetas-e-flocos-de-neve-das-%C3%A1rvo.jpg">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur.</p>
+						</div>
+						<footer class="font-italic">
+							Por Rogerin
+						</footer>
+					</div>
+				</a>
 			</article>
-			<article class="p-3 mt-4 bg-white">
-				<header>
-					<h2>Título da postagem</h2>
-					<span>postado em 9 de março de 2021</span>
-					<hr>
-				</header>
-				<div>
-					<img src="https://image.freepik.com/fotos-gratis/retrato-de-uma-velha-segurando-dinheiro-isolado_246836-889.jpg">
-					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur.</p>
-				</div>
-				<footer>
-					
-				</footer>
+
+			<article class="my-4 bg-white mx-auto">
+				<a href="#" class="post text-dark">
+					<div class="p-4">
+						<header>
+							<h2>Título da postagem</h2>
+							<span>postado em 9 de março de 2021</span>
+							<hr>
+						</header>
+						<div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur.</p>
+						</div>
+						<footer class="font-italic">
+							Por Rogerin
+						</footer>
+					</div>
+				</a>
 			</article>
+				
 		</section>
 	</main> <!-- Fim main -->
 	<footer> <!-- Início footer -->
