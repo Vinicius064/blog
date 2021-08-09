@@ -17,7 +17,7 @@
     		font-size: 16px;
     	}
     	article{
-    		width: 55%;
+    		width: 600px;
     	}
     	article:hover{
     		box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.4);
@@ -27,11 +27,17 @@
     	}
     	article img{
     		width: 100%
-    	}    	
+    	}
+    	article div.image-cap{
+    		background-size: contain;
+    	}
     	a.post:hover{
     		text-decoration: none;
     	}
-    	@media (max-width: 768px) {
+    	.data{
+    		font-size: 13px;
+    	}
+    	@media (max-width: 650px) {
     		article{
     			width: 85%;
     		}
@@ -72,11 +78,13 @@
 					<div class="p-4">
 						<header>
 							<h2>Título da postagem</h2>
-							<span>postado em 9 de março de 2021</span>
+							<span class="data">postado em 9 de março de 2021</span>
 							<hr>
 						</header>
 						<div>
-							<img src="https://st.depositphotos.com/1912933/1814/i/600/depositphotos_18140761-stock-photo-old-woman.jpg">
+							<div class="image-cap" style="background: url('https://st.depositphotos.com/1912933/1814/i/600/depositphotos_18140761-stock-photo-old-woman.jpg') no-repeat center center; height: 30vh; width: 100%;">
+								
+							</div>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -95,11 +103,13 @@
 					<div class="p-4">
 						<header>
 							<h2>Título da postagem</h2>
-							<span>postado em 9 de março de 2021</span>
+							<span class="data">postado em 9 de março de 2021</span>
 							<hr>
 						</header>
 						<div>
-							<img src="https://previews.123rf.com/images/oksanaok/oksanaok1701/oksanaok170100030/70423416-paisagem-horizontal-sem-emenda-da-floresta-do-natal-do-inverno-com-silhuetas-e-flocos-de-neve-das-%C3%A1rvo.jpg">
+							<div class="image-cap" style="background: url('https://previews.123rf.com/images/oksanaok/oksanaok1701/oksanaok170100030/70423416-paisagem-horizontal-sem-emenda-da-floresta-do-natal-do-inverno-com-silhuetas-e-flocos-de-neve-das-%C3%A1rvo.jpg') no-repeat center center; height: 30vh; width: 100%;">
+								
+							</div>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -112,13 +122,12 @@
 					</div>
 				</a>
 			</article>
-
 			<article class="my-4 bg-white mx-auto">
 				<a href="#" class="post text-dark">
 					<div class="p-4">
 						<header>
 							<h2>Título da postagem</h2>
-							<span>postado em 9 de março de 2021</span>
+							<span class="data">postado em 9 de março de 2021</span>
 							<hr>
 						</header>
 						<div>
@@ -134,8 +143,9 @@
 					</div>
 				</a>
 			</article>
-				
+					
 		</section>
+
 	</main> <!-- Fim main -->
 	<footer> <!-- Início footer -->
 			
